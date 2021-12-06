@@ -33,4 +33,14 @@ class Welcome extends CI_Controller
 	{
 		$this->load->view('dashboard.php');
 	}
+
+	public function paketKuis()
+	{
+		$this->load->view('paketKuis.php');
+	}
+
+	public function soalKuis()
+	{
+		// $this->load->view('soalKuis.php');
+	}
 }
