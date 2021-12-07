@@ -41,6 +41,6 @@ class Welcome extends CI_Controller
 
 	public function soalKuis()
 	{
-		// $this->load->view('soalKuis.php');
+		$this->load->view('soalKuis.php');
 	}
 }

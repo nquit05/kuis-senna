@@ -134,14 +134,20 @@
                             <span class="icon text-white-50">
                                 <i class="fas fa-plus"></i>
                             </span>
-                            <span class="text">Tambah Paket</span>
+                            <span class="text">Tambah Soal</span>
+                        </a>
+                        <a href="#" class="btn btn-success btn-icon-split">
+                            <span class="icon text-white-50">
+                                <i class="fas fa-file-excel"></i>
+                            </span>
+                            <span class="text">Impor Excel</span>
                         </a>
                     </div>
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Tabel Data Paket Kuis</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Tabel Data Soal Kuis</h6>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -151,6 +157,7 @@
                                             <th>No. </th>
                                             <th>Nama Bidang</th>
                                             <th>Nama Paket</th>
+                                            <th>Soal Kuis</th>
                                             <th>Aksi</th>
                                         </tr>
                                     </thead>
@@ -159,7 +166,12 @@
                                             <td>1</td>
                                             <td>SOSHUM</td>
                                             <td>Paket Semangat</td>
+                                            <td>Sebagian kecil suku di Indonesia masih.....</td>
                                             <td>
+                                                <a href="#" class="btn btn-info">
+                                                    <i class="fa fa-eye"></i>
+
+                                                </a>
                                                 <a href="#" class="btn btn-warning">
                                                     <i class="far fa-edit"></i>
 
@@ -174,7 +186,12 @@
                                             <td>2</td>
                                             <td>SAINTEK</td>
                                             <td>Paket 1</td>
+                                            <td>Diketahui U_n adalah barisan geometri.....</td>
                                             <td>
+                                                <a href="#" class="btn btn-info">
+                                                    <i class="fa fa-eye"></i>
+
+                                                </a>
                                                 <a href="#" class="btn btn-warning">
                                                     <i class="far fa-edit"></i>
 
